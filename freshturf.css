@@ -1,0 +1,284 @@
+@font-face {
+    font-family: National;
+    src: url(data:font/otf;base64,https://www.uxfree.com/national-font-family/)
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    overflow-y: scroll;
+}
+
+
+.nav {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #32465a; 
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav-item {
+    width: 120px;
+    height: 60px;
+    font-size: 16px;  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li {
+    list-style: none;  
+}
+
+a {
+    color: #D3D3D3;
+}
+
+.nav-item a:hover,
+.nav-item aa:focus {
+    color: #ffffff;
+}
+
+.nav-item a:active {
+     color: #ffffff;
+     box-shadow: 0px 8px #ffffff;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    height: 100px;
+    width: 100%;
+    overflow: auto;
+    line-height: 30px;
+    position: absolute;
+    top: 60px;
+    padding-left: 0px;
+    text-align: left;
+    z-index: 1;
+    background-image: linear-gradient(to top right, #e7994d, #e0c9c3);
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: #00ffFF;
+}
+
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    color: #00F;
+    padding-left: 35px;
+    border-bottom: 1px solid white;
+}
+
+.dropdown-content a:last-child {
+    border-bottom: none;
+}
+
+
+.dropdown-content a:active {
+    box-shadow: inset 2px 2px 1px #008,
+    inset 2px 3px 5px rgba(0,0,255),
+    inset -2px -3px 5px rgba(176,224,230);
+}
+
+
+.intro {
+    margin-top: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.play {
+    width: 60px;
+}
+
+
+.show {
+    display: block;
+}
+
+
+.demo-container {
+    height: 500px;
+    background-image: url(map.png);
+    object-fit: contain;
+}
+
+.demo-container h1 {
+    margin-left: 40px;
+    width: 600px;
+    padding-top: 60px;
+    color: #32465a;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.24em;
+}
+
+.demo-container p {
+    margin-left: 40px;
+    width: 580px;
+    font-size: 16px;
+    color: #9aa9b8;
+}
+
+.checklist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checklist li {
+    list-style: none;
+    font-size: 18px;
+    color: #32465a;
+    
+}
+
+.checklist li:before {
+    content: "\f058";
+    font-family: "FontAwesome";
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    color: #7ed321;
+}
+
+.request-demo {
+    margin-top: 50px;
+    width: 90%;
+    height: 110px;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    background-color: #d1eef6;
+    padding: 20px;
+}
+
+.form {
+    width: 100%;    
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#lgFormGroupInput {
+    width: 240px;
+    line-height: 50px;
+    padding: 5px;
+    font-size: 1.2em;
+    
+}
+
+::-webkit-input-placeholder { /* Chrome/Operat/safari */
+    font-size: 10px;
+    padding: 5px;
+    color: blue-grey;
+    height: 50px;
+    vertical-align: super;
+    opacity: 0.5;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    font-size: 10px;
+    padding: 5px;
+    color: blue-grey;
+    height: 50px;
+    vertical-align: super;
+    opacity: 0.5;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    font-size: 10px;
+    padding: 5px;
+    color: blue-grey;
+    height: 50px;
+    vertical-align: super;
+    opacity: 0.5;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-size: 10px;
+    padding: 5px;
+    color: blue-grey;
+    height: 50px;
+    vertical-align: super;
+    opacity: 0.5;
+}
+
+.demo {
+    width: 220px;
+    height: 60px;
+    background-color: blue;
+}
+.solution {
+    background-color: white;
+    height: 500px;
+}
+
+.solution h2 {
+    margin-top: 50px;
+    font-size: 36px;
+    color: #32465a;
+    font-weight: bold;
+    text-align: center;
+}
+
+.solution p {
+    width: 550px;
+    font-size: 16px;
+    color: #9aa9b8;
+    text-align: center;
+    margin: 30px auto;  
+}
+
+.list-heading {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    list-style-image: url("group-12.png");
+    font-size: 20px;
+    font-weight: 600;
+    color: #32465a;     
+}
+
+.list-sentence {
+    width: 500px;
+    font-size: 16px;
+    color: #9aa9b8;
+}
+
+.view-prod {
+    background-color: white;
+    border: white;
+}
+
+.view-prod a {
+    font-size: 16px;
+    color: #00a1e9;
+    font-weight: 700;
+    margin-left: 35px;
+}
+
+
