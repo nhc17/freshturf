@@ -9,45 +9,60 @@
 <link rel="stylesheet" href="freshturf.css">
     
 <title>Fresh Turf</title>
+<meta name="description" content="Freshturf provides a complete delivery solution">
 </head>
 
 <body>
-<div class="container-fluid">
-    <div class="row nav">
-        <div class="col">        
-            <img src="freshturf-logo.png" class="logo">
-            </div>
-        <div class="col-lg-8 ">
-            <ul class="row">
-                <li class="nav-item dropdown"> <a class="nav-link text-center" href="#Product">Product<span class="sr-only"></span></a>
+    
+<!-- navigation -->
+<header>
+ <div class="navbar header">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navNavTabs" aria-controls="navNavTabs" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <a class="navbar-brand" href="#"></a>
+        <div class="collapse navbar-collapse" id="navNavPills"> 
+            <ul class="nav nav-pills">
+                 <ul class="nav nav-pills">
+                <li class="nav-item active"> <a class="nav-link text-center" href="#Home">Home<span class="sr-only"></span></a></li>
+                <li class="nav-item"> <a class="nav-link text-center" href="#About">  About Us</a> </li>
+                <li class="nav-item"> <a class="nav-link text-center" href="#Elearning">E-Learning</a> </li>
+                <li class="nav-item"> <a class="nav-link text-center" href="#Kinetic">  Kinetic Coach</a> </li>
+                <li class="nav-item"> <a class="nav-link text-center" href="#Facilities"> Facilities Rental</a> </li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" onclick="drFunction()" href="#More" role="button" aria-haspopup="true" aria-expanded="false"> More</a>
+                     <ul class="dropdown-content" id="dropdownMenu" role="menu" aria-laelledby="dropdownMenu">
+                             <a href="#Prod">Product Gallery</a>
+                             <a href="#News">News &amp; Updates</a>
+                             <a href="#Event">Upcoming Events</a>
+                         </ul></li>
+            <li class="nav-item"><a class="nav-link text-center" href="#Contact"> Contact</a></li>
+            </ul>
+
+                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle text-center" data-toggle="dropdown" onclick="drFunction()" href="#Product" role="button" aria-haspopup="true" aria-expanded="false">Product</a>
                     <ul class="dropdown-content" id="dropdownMenu" role="menu" aria-laelledby="dropdownMenu">
                         <a href="#Prod">Product Gallery</a>
                         <a href="#New">New Launches</a>
                         </ul></li>
-                <li class="nav-item"> <a class="nav-link text-center" href="#Features">  Features</a> </li>
+                <li class="nav-item"> <a class="nav-link text-center" href="#Features">Features</a> </li>
                 <li class="nav-item active"> <a class="nav-link text-center" href="#Biz">For business</a> </li>
-                <li class="nav-item"> <a class="nav-link text-center" href="#Pricing">  Pricing</a> </li>
+                <li class="nav-item"> <a class="nav-link text-center" href="#Pricing">Pricing</a> </li>
                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" onclick="drFunction()" href="#More" role="button" aria-haspopup="true" aria-expanded="false"> More</a>
                     <ul class="dropdown-content" id="dropdownMenu" role="menu" aria-laelledby="dropdownMenu">
                         <a href="#Updates">News &amp; Updates</a>
                         <a href="#Events">Upcoming Events</a>
-                        </ul>
-                </li>
-             </ul>
+                        </ul></li>
+                <li class="row intro">
+                <img src="group-30.png" class="play"><a class="nav-link text-center" href="#Intro">Watch Intro</a></li>
+            </ul>
         </div>
-        <div class="col-lg-2">
-            <li class="row intro">
-                <img src="group-30.png" class="play"><a class="nav-link text-center" href="#Intro">Watch Intro</a></li></div>
-            
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navNavTabs" aria-controls="navNavTabs" aria-
-                    expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-              
-        </div>
+     </nav>
     </div>
+</header>
     
-    <div class="container-fluid demo-container">
+
+<!-- Help you grow biz section -->
+    <div class="container-fluid for-biz">
         <div class="row">
             <div >
                 <h1>We're here to help you grow your business</h1>
@@ -84,11 +99,12 @@
     </div>
    </div>
  
-    <div class="container-fluid">
-        <div class="solution">
+<!-- Complete delivery solution section -->
+    <div class="container-fluid solution">
         <h2>Complete delivery solution for delivery business</h2>
         <p>We had put all the problems on a table and started to solve it using the best technology in the world right now</p>
         <div class="row">
+            <div class="solution-content">
         <div class="col-lg-6">
             <ul>
                 <li class="list-heading">Schedule a delivery</li>
@@ -103,20 +119,166 @@
         <div class="col-lg-6">
             <img src="devices.png">
         </div>
+                </div>
         </div>
        </div>
-   </div>
+ 
     
-    <div>
+    <div class="container-fluid works">
         <h2>This is how Freshturf works</h2>
-        <p>Explore features like invoicing, payroll, reporting and more. It has all you need to manage your numbers effortlessly</p>
+        <p>It's easy to set up the Freshturf system, and we will do it for you. You just have to help us to understand your business</p>
+    
+    <div class="row how-it-works">
+   
+        <div class="col-lg-4">
+            <img src="group-2.png" class="center">
+            <h6>Help us to understand your bsuiness</h6>
+            <p>On demand 24/7 anytime near your home pickup and no long waiting time</p>
+        </div>
+        <div class="col-lg-4">
+            <img src="group-3.png" class="center">
+             <h6>Let us set up a system for you</h6>
+            <p>Lower cost of last mile fulfilment with no re-delivery cost at all</p>
+        </div>
+        <div class="col-lg-4">
+            <img src="group-5.png" class="center">
+            <h6>Sit back and enjoy delivery service</h6>
+            <p>Reconciliation by Distributed ledger secure and trusted network</p>
+        </div>
+        </div>
     </div>
     
+   
+<!-- How it works section --> 
+    <div class="container-fluid features">
+    <div class="row">
+        <div class="col-lg-12">
+           <h2>Whatever your business, Freshturf is there for you</h2>
+            <p>Explore features like invoicing, reporting and more. It has all you need ot manage your numbers effortlessly</p>
+        </div>
+        <div class="row four-images">
+          
+            <img src="retail-employee.jpg">
+            <div class="flag-one">Small retailer</div>  
+                
+            <img src="women-shopping.jpg">
+            <div class="flag-two">E-commerce</div>
+           
+            <img src="adult-groceries.jpg">
+            <div class="flag-three">Food delivery</div>
+            <img src="delivery-man.jpg">
+            <div class="flag-four">Package delivery</div>
+        </div>
+        <div class=" col-lg-12 clients">
+           <p>We are helping <a href=#70biz>70+ businesses</a>. Freshturf can make running any type of business so much easier.</p>
+        </div>
+     </div>
+    </div>
+        
+<!-- Free demo at doorstep section -->
+    <div class="container-fluid">
+        <div class="row contact">
+            <h2>Free demo at your door steps</h2>
+            <div class="contact-subsection">
+            <div class="col-lg-6">
+             <form class="form">
+                 <input type="text" id="lgFormGroupInput2" placeholder="Your name">
+                 <input type="text" id="lgFormGroupInput2" placeholder="Your work email address">
+                 <input type="text" id="lgFormGroupInput2" placeholder="Your company name">
+               </form>
+                 <button class="demo2"><a href="#demo">Request a FREE demo</a></button>
+                  
+           </div>
+            
+            <div class="col-lg-6">
+                <div class="Doordash">
+                    <img src="doordash.png">
+                    <p>Working with Routific has helped us get to market and iterate faster on Drive, enabling Dashers to be more efficient with their deliveries and helping customers to receive their odeers faster than ever.</p>
+                </div>
+                <div class="container">
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item-active">
+                        <div class="col-lg-3">
+                            <div class="carousel-row">
+                            <img src="donald-6.png" class="d-block w-100 rounded-circle img-fluid "><span>
+                            <h3>Donald McGhee</h3>
+                                <p>Product manager, Donaldash</p></span>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+                </div>
+                </div>
+            </div>
+           </div>
+          </div>
+         </div>
+             
+<!-- footer section -->
     
+<div class="page-wrap"></div>
+  <footer>
+      <div class="container-fluid">
+          <div class="footer">
+              <div class="col-lg-3 brand">
+                  <img src="freshturf-logo.png">
+                  <p>Freshturf LTD is an open delivery system using blockchain</p>
+                   <a href="" id="Facebook"><i class="fa fa-facebook fa-f6" aria-hidden="true"></i></a>
+                     <a href="" target="-blank" id="Twitter"><i class="fa fa-twitter fa-6" aria-hidden="true"></i></a>
+                  <a href="" target="-blank" id="Instagram"><i class="fa fa-instagram fa-1" aria-hidden="true"></i></a>
+              </div>
+              
+              <div class="col-lg-2">
+                  <h3>PRODUCTS</h3>
+                  <ul>
+                      <li>Ecomm dashboard</li>
+                      <li>Admin dashboard</li>
+                      <li>Courier app</li>
+                      <li>Consumer app</li>
+                  </ul>
+              </div>
+              
+              <div class="col-lg-2">
+                  <H3>DELIVERY SYSTEM</H3>
+                  <ul>
+                      <li>Features</li>
+                      <li>Pricing</li>
+                      <li>For Business</li>
+                      <li>Request a demo</li>
+                  </ul>
+              </div>
+              
+              <div class="col-lg-2">
+                  <h3>ABOUT US</h3>
+                  <ul>
+                      <li>About Freshturf</li>
+                      <li>Team</li>
+                      <li>Our partners</li>
+                      <li>Featured in</li>
+                  </ul>
+              </div>
+              
+              <div class="col-lg-2">
+                  <h3>MORE</h3>
+                  <ul>
+                      <li>Contact us</li>
+                      <li>News &amp; blog</li>
+                      <li>Careers</li>
+                      
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </footer>
     
-    
-    
-    
+ <script src="freshturf.js"></script>   
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
