@@ -22,38 +22,31 @@ body {
 
 .navbar-brand {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 0;
     width: 150px; 
     height: 60px;
     background: url("freshturf-logo.png") no-repeat;
-     background-size: 150px;
+    background-size: 150px;
 }
-
 
 .nav-pills {
-  float: right;
-  margin-left: auto;
-  height: 60px;
+     
+  margin-left: 0;
+  
   margin-top: 0;
-  margin-bottom: 0;
-  padding: 15px 15px 15px;
+  margin-bottom: 0px;
+ height: 20px;
+    width: 80%;
+    list-style: none;
   font-size: 20px;
   line-height: 30px; 
-    color: white;
-}
-
-
-.nav-pills li {
-    
-    width: 120px;
-    height: 60px;
-    font-size: 16px;  
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    
+  
+  
 }
-
 
 .nav-item a:hover,
 .nav-item aa:focus {
@@ -69,24 +62,26 @@ body {
 .dropdown {
     position: relative;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .dropdown-content {
     display: none;
     height: 100px;
-    width: 100%;
+    width: 190px;
     overflow: auto;
     line-height: 30px;
     position: absolute;
     top: 60px;
+    left: -50px;
     padding-left: 0px;
     text-align: left;
     z-index: 1;
-    background-image: linear-gradient(to top right, #e7994d, #e0c9c3);
-    border-radius: 10px;
+    background-color: #32465a; 
+    
     border: 1px solid black;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
     color: #00ffFF;
 }
 
@@ -110,23 +105,22 @@ body {
     inset -2px -3px 5px rgba(176,224,230);
 }
 
-
-.intro {
-    margin-top: 10px;
-    width: 200px;
-    display: flex;
-    justify-content: flex-end;
-    
-}
-
-.play {
-    width: 60px;
-}
-
-
 .show {
     display: block;
 }
+
+.play {
+    width: 50px;
+    display: inline-block;
+    float: left;
+    
+}
+
+.watch {
+    width: 90px;
+    display: inline;
+}
+
 
 /* For Buiness section */
 .for-biz {
@@ -246,6 +240,7 @@ body {
     height: 60px;
     background-color: #00a1e9;
 }
+
 
 /* Delivery Solution Section */
 .solution {

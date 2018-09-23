@@ -1,15 +1,18 @@
 /*jslint browser: true */
-/*global document $ */
+/*global document  */
 
 /* hamburger menu */
 function drFunction() {
-    document.getElementById('dropdownMenu').classList.toggle('show');
+    document.getElementById('dropdownMenu1').classList.toggle('show');
+    
 }
 
 drFunction();
 
- $(document).ready(function(){
-    $('.carousel').carousel({
-      interval: 2000
-    })
-  });    
+
+function drFn() {
+    document.getElementById('dropdownMenu2').classList.toggle('show');
+    
+}
+
+drFn();
