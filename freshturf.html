@@ -16,44 +16,49 @@
     
 <!-- navigation -->
 <header>
- <div class="navbar header">
-    <nav class="navbar navbar-toggleable-md ixed-top">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navNavTabs" aria-controls="navNavTabs" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-        <a class="navbar-brand" href="#"></a>
-        
-            <ul class="nav-pills">
-                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle text-center" data-toggle="dropdown" onclick="drFunction()" target="dropdowmMenu1" href="#Product" role="button" aria-haspopup="true" aria-expanded="false">Product</a>
-                    <ul class="dropdown-content" id="dropdownMenu1" role="menu" aria-laelledby="dropdownMenu">
-                        <a href="#Prod">Product Gallery</a>
-                        <a href="#New">New Launches</a>
-                        </ul></li>
-                <li class="nav-item"> <a class="nav-link text-center" href="#Features">Features</a> </li>
-                <li class="nav-item active"> <a class="nav-link text-center" href="#Biz">For business</a> </li>
-                <li class="nav-item"> <a class="nav-link text-center" href="#Pricing">Pricing</a> </li>
-                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" onclick="drFn()" target="dropdownMenu2" href="#More" role="button" aria-haspopup="true" aria-expanded="false">More</a>
-                    <ul class="dropdown-content" id="dropdownMenu2" role="menu" aria-laelledby="dropdownMenu2">
-                        <a href="#Updates">News &amp; Updates</a>
-                        <a href="#Events">Upcoming Events</a>
-                        </ul></li>
-                <li class="nav-item">
-               <img src="group-30.png" class="play"><a class="nav-link  watch" href="#Intro" >Watch Intro</a></li>
-            </ul>
-      
-     </nav>
-    </div>
+    <div class="navbar-header container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <div class="navbar-container">
+                    <a class="navbar-brand" href="#"></a>
+                    <nav class="nav flex-column flex-lg-row">
+                        <ul class="nav">
+                            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle text-center" data-toggle="dropdown" onclick="drFunction()" target="dropdowmMenu1" href="#Product" role="button" aria-haspopup="true" aria-expanded="false">Product</a>
+                            <div class="dropdown-content" id="dropdownMenu1" role="menu" aria-laelledby="dropdownMenu">
+                            <a class="dropdown-item" href="#Prod">Product Gallery</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#New">New Launches</a>
+                            </div></li>
+                            <li class="nav-item"> <a class="nav-link text-center" href="#Features" >Features</a> </li>
+                            <li class="nav-item active"> <a class="nav-link text-center" href="#Biz" >For business</a> </li>
+                            <li class="nav-item"> <a class="nav-link text-center" href="#Pricing" >Pricing</a> </li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" onclick="drFn()" target="dropdownMenu2" href="#More" role="button" aria-haspopup="true" aria-expanded="false">More</a>
+                                <div class="dropdown-content" id="dropdownMenu2" role="menu" aria-laelledby="dropdownMenu2">
+                                <a class="dropdown-item" href="#Updates">News &amp; Updates</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#Events">Upcoming Events</a>
+                                </div></li>
+                        </ul>
+                        <div class="watch-container">
+
+                           <img src="group-30.svg" class="play"><span><a class="watch-link" href="#Intro" >Watch Intro</a></span>
+                        </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
 </header>
     
 
 <!-- Help you grow biz section -->
-    <div class="container-fluid for-biz">
-        <div class="row">
-            <div >
+    <div class="for-biz container-fluid">
+        <div class="biz-panel">
+            <div class="col-lg-5 col-md-5 growbiz">
                 <h1>We're here to help you grow your business</h1>
                 <p>We've helped hundreds of clients reach internet marketers and grow their business. Let us help you too.</p>
             </div>
-            <div class="checklist">
+            <div class="col-8 col-md-4 checklist">            
                 <ul>
                      <li>Decentralised delivey option</li>
                      <li>Shared ledger</li>
@@ -61,72 +66,69 @@
                      <li>100% faster and efficient</li>    
                 </ul>
             </div>
-        </div>
+         </div>
+    
+            
         
-         <div class="row justify-content-lg-center ">
+         <div class="form-container">
+             
            <div class="request-demo">
-             <form class="form">
-             <div class="form-group row">
-                 <input type="text" id="lgFormGroupInput" placeholder="Your name">
-                    
-                 <div>
-                     <input type="text" id="lgFormGroupInput" placeholder="Your work email address">
-                    </div>
+          
+                <div class="col-12 col-md-12">
+                 <input type="text" id="lgFormGroupInput" placeholder="Your name">     <input type="text" id="lgFormGroupInput" placeholder="Your work email address">
+                 <input type="text" id="lgFormGroupInput" placeholder="Your company name">
                 
-              
-                     <input type="text" id="lgFormGroupInput" placeholder="Your company name">
-                    </div>
-               
-               </form>
-             <button class="demo"><a href="#demo">Request a demo</a></button>
-        </div>
-                
+                <button class="demo"><a href="#demo">Request a FREE demo</a></button>
+                  
+               </div>
+           </div>
+        </div>       
+    
     </div>
-   </div>
+   
  
 <!-- Complete delivery solution section -->
-    <div class="container-fluid solution">
+    <div class="solution container-fluid">
         <h2>Complete delivery solution for delivery business</h2>
         <p>We had put all the problems on a table and started to solve it using the best technology in the world right now</p>
-        <div class="row">
-            <div class="solution-content">
-        <div class="col-lg-6">
-            <ul>
-                <li class="list-heading">Schedule a delivery</li>
-                <li class="list-sentence">You can scehdule a delivery as you want and can keep track of the delivery status</li>
-                 <li class="list-heading">Report analysis</li>
-                <li class="list-sentence">We can help you to grow your bsuiness by creating a report to make the process more efficient</li>
-                 <li class="list-heading">Customised delivery process</li>
-                <li class="list-sentence">Delivery proecss is the heart of he delivery system so we give you flexibility to customize the process</li>
-            </ul>
+        <div class="solution-content row">
+            <div class="col-lg-6 col-md-6">
+                <ul>
+                    <li class="list-heading">Schedule a delivery</li>
+                    <li class="list-sentence">You can scehdule a delivery as you want and can keep track of the delivery status</li>
+                     <li class="list-heading">Report analysis</li>
+                    <li class="list-sentence">We can help you to grow your bsuiness by creating a report to make the process more efficient</li>
+                     <li class="list-heading">Customised delivery process</li>
+                    <li class="list-sentence">Delivery proecss is the heart of he delivery system so we give you flexibility to customize the process</li>
+               </ul>
             <button class="view-prod"><a href="#view-products">View all products <span><i class="fa fa-play"></i></span></a></button>
+           </div>
+        <div class="col-lg-6 col-md-6">
+            <img src="devices@2x.jpg">
         </div>
-        <div class="col-lg-6">
-            <img src="devices.png">
         </div>
-                </div>
-        </div>
-       </div>
+        
+     </div>
  
     
-    <div class="container-fluid works">
+    <div class="works container-fluid">
         <h2>This is how Freshturf works</h2>
         <p>It's easy to set up the Freshturf system, and we will do it for you. You just have to help us to understand your business</p>
     
     <div class="row how-it-works">
    
         <div class="col-lg-4">
-            <img src="group-2.png" class="center">
+            <img src="group-2.svg" class="center">
             <h6>Help us to understand your bsuiness</h6>
             <p>On demand 24/7 anytime near your home pickup and no long waiting time</p>
         </div>
         <div class="col-lg-4">
-            <img src="group-3.png" class="center">
+            <img src="group-3.svg" class="center">
              <h6>Let us set up a system for you</h6>
             <p>Lower cost of last mile fulfilment with no re-delivery cost at all</p>
         </div>
         <div class="col-lg-4">
-            <img src="group-5.png" class="center">
+            <img src="group-5.svg" class="center">
             <h6>Sit back and enjoy delivery service</h6>
             <p>Reconciliation by Distributed ledger secure and trusted network</p>
         </div>
@@ -135,7 +137,7 @@
     
    
 <!-- How it works section --> 
-    <div class="container-fluid features">
+    <div class="features container-fluid">
     <div class="row">
         <div class="col-lg-12">
            <h2>Whatever your business, Freshturf is there for you</h2>
@@ -177,7 +179,7 @@
             
             <div class="col-lg-6">
                 <div class="Doordash">
-                    <img src="doordash.png">
+                    <img src="bitmap.jpg">
                     <p>Working with Routific has helped us get to market and iterate faster on Drive, enabling Dashers to be more efficient with their deliveries and helping customers to receive their odeers faster than ever.</p>
                 </div>
                 <div class="container">
@@ -188,10 +190,28 @@
                     <li data-target="#carousel" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="item-active">
+                    <div class="carousel-item active">
                         <div class="col-lg-3">
                             <div class="carousel-row">
-                            <img src="donald-6.png" class="d-block w-100 rounded-circle img-fluid "><span>
+                            <img src="oval-6.jpg" class="d-block w-100 rounded-circle img-fluid "><span>
+                            <h3>Donald McGhee</h3>
+                                <p>Product manager, Donaldash</p></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-lg-3">
+                            <div class="carousel-row">
+                            <img src="oval-6.jpg" class="d-block w-100 rounded-circle img-fluid "><span>
+                            <h3>Donald McGhee</h3>
+                                <p>Product manager, Donaldash</p></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-lg-3">
+                            <div class="carousel-row">
+                            <img src="oval-6.jpg" class="d-block w-100 rounded-circle img-fluid "><span>
                             <h3>Donald McGhee</h3>
                                 <p>Product manager, Donaldash</p></span>
                             </div>
@@ -211,7 +231,7 @@
 <div class="page-wrap"></div>
   <footer>
       <div class="container-fluid">
-          <div class="footer">
+          <div class="footer row">
               <div class="col-lg-3 brand">
                   <img src="freshturf-logo.png">
                   <p>Freshturf LTD is an open delivery system using blockchain</p>
