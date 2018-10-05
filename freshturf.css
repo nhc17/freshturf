@@ -22,8 +22,26 @@ body {
     background-color: #32465a; 
 }
 
-.nav-item {
+.navbar-brand {
+    padding-left: 35px;
+    padding-top: 5px;
+    
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 2px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav {
     margin-left: 30px;
+}
+.nav-item {
+    margin-left: 35px;
 }
 
 
@@ -37,17 +55,18 @@ body {
     opacity: 1;
 }
 
+
 .watch-container {
-   margin-left: 395px;
+    margin-left: 300px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    /* flex-direction: row; */
     -webkit-flex-flow: row wrap;
     justify-content: flex-end;
 }
+
 .play {
     margin-top: 5px;
     margin-left: 10px;
@@ -64,6 +83,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     color: #00a1e9;
+    margin-right: 50px;
 }
 
 .watch-link:hover,
@@ -90,6 +110,7 @@ body {
 .biz-panel {
     width: 100vw;
     min-height: 255px;
+    padding-bottom: 50px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -128,7 +149,6 @@ body {
 }
 
 .checklist {
-    
     padding-top: 85px;
     min-height: 245px;
     display: -webkit-box;
@@ -159,19 +179,22 @@ body {
     color: #7ed321;
 }
 
+/*
 .form-container{
     width: 100vw;
-    height: 95px;
-    padding-top: 120px;
+   
     display: flex;
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
     align-items: center; 
 } 
-
+*/
 .request-demo {
-    width: 90%;
-    min-height: 95px;
+    width: 92vw;
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    /*min-height: 95px; */
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 25px;
@@ -251,6 +274,7 @@ body {
     padding-left: 25px;
     padding-right: 25px;
     height: 21px;
+   
     font-size: 18px;
     font-weight: 600;
     line-height: normal;
